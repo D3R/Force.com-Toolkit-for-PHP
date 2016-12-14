@@ -142,7 +142,7 @@ class SforceEnterpriseClient extends SforceBaseClient {
 	  // ------
       $arg->sObjects[] = $soapObject;
     }
-    $arg->sObjects = $sObjects;
+
     return parent::_upsert($arg);
   }
 
